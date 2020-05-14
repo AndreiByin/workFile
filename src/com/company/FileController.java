@@ -11,6 +11,13 @@ ArrayList <File> File;
     scanner = new Scanner(System.in);
     File = new ArrayList<>();
 }
+ void FileOpen(){
+    FileStatus open = FileStatus.OPEN;
+    }
+
+    void FileClosed(){
+    FileStatus closed = FileStatus.CLOSED;
+    }
 
 
 }
